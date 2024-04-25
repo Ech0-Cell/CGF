@@ -15,7 +15,9 @@ Internet connection to access the RESTful service and Maven repositories.
 To get started with the CGFmth3902 project, clone this repository and navigate into the project directory:
 
 bash
+
 git clone <https://github.com/Ech0-Cell/CGF>
+
 cd CGFmth3902
 
 # *Building the Application*
@@ -23,8 +25,9 @@ cd CGFmth3902
 Compile and package the application using Maven:
 
 bash
-Copy code
+
 mvn clean package
+
 This command will generate a jar file within the target directory.
 
 # *Running the Application*
@@ -32,8 +35,9 @@ This command will generate a jar file within the target directory.
 To run the application, use the following command:
 
 bash
-Copy code
+
 nohup ${JAVA_HOME}/bin/java -jar target/CGFmth3902-1.0-SNAPSHOT.jar &
+
 This will start the application in the background, allowing it to continuously print responses from the RESTful service to the console.
 
 # *Application Structure*
