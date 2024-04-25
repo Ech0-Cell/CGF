@@ -1,5 +1,3 @@
-# CGF
-
 # *Overview*
 
 The CGFmth3902 project is a simple Java backend application that interacts with a RESTful service. It queries the REST API at http://universities.hipolabs.com/search?name=bahce to retrieve information about universities containing the keyword "bahce" in their names. The application prints the API response to the console, making it a basic tool for testing and demonstrating the interaction with external RESTful services.
