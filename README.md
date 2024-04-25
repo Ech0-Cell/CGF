@@ -4,17 +4,18 @@ The CGFmth3902 project is a simple Java backend application that interacts with 
 
 # *Prerequisites*
 
-Java 22 or higher
-Maven 3.6 or higher
-Internet connection to access the RESTful service and Maven repositories
+Java 22 or higher.
+
+Maven 3.6 or higher.
+
+Internet connection to access the RESTful service and Maven repositories.
 
 # *Setup*
 
 To get started with the CGFmth3902 project, clone this repository and navigate into the project directory:
 
 bash
-Copy code
-git clone <repository-url>
+git clone <https://github.com/Ech0-Cell/CGF>
 cd CGFmth3902
 
 # *Building the Application*
