@@ -65,14 +65,14 @@ source ~/.bash_profile
 
 Update the application.properties file in the src/main/resources directory with your Kafka and Oracle database configurations.
 
-# Kafka properties
+# Kafka Properties
 
 kafka.bootstrap.servers=localhost:9092
 kafka.group.id=cgf-group
 kafka.key.deserializer=org.apache.kafka.common.serialization.StringDeserializer
 kafka.value.deserializer=org.apache.kafka.common.serialization.StringDeserializer
 
-# Oracle properties
+# Oracle Properties
 
 oracle.db.url=jdbc:oracle:thin:@localhost:1521:xe
 oracle.db.user=username
